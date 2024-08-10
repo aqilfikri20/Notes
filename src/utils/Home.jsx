@@ -68,7 +68,7 @@ render(){
             {notes.length > 0 ? (
           <ListNotes notes={notes} onDelete={this.onDeleteEvent} />
         ) : (
-          <p className='empty'>Tidak ada catatan</p>
+          <p className='empty'>Catatan Kosong</p>
         )}
           <Link to='/add'><MdAddCircleOutline className='add'></MdAddCircleOutline> </Link>
         </section>
